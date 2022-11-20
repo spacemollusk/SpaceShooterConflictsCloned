@@ -7,10 +7,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private GameObject destructionFX;
-    [SerializeField] private int health = 3;
-
-    public static Player instance;
     public GameObject mainDestructionFX;
     public GameObject secondaryDestructionFX;
     public GameObject tertiaryDestructionFX;
